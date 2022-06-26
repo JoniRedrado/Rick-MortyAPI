@@ -1,0 +1,102 @@
+:root {
+  --bgd-img: url(https://image.winudf.com/v2/image1/Y29tLndhbGxwYXBlcnM0a2hkX3JpY2tfbW9ydHlfd2FsbHBhcGVyc19zY3JlZW5fOF8xNTg4MDkzOTg4XzA2Mw/screen-8.jpg?fakeurl=1&type=.jpg);
+  --celeste: #2276B2;
+  --azul: rgba(26, 33, 46, 0.8);
+  --verde: #31BA29;
+  --gris-claro: #828D8E;
+  --gris-oscuro: #78705B;
+}
+
+.container{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 10px;
+  background-image: var(--bgd-img);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.character{
+  display: flex;
+  width: 25%;
+  border: 2px solid var(--verde);
+  margin: 5px;
+  background-color: var(--azul);
+  border-radius: 10px;
+}
+
+
+.character-img{
+  border-radius: 0px;
+  max-height: 100px;
+  margin: 0;
+  border-radius: 10px ;
+}
+
+.character-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 70%;
+}
+
+.link{
+  text-decoration: none;
+  font-style: none;
+  color: white;
+  width: 100%;
+  text-align: center;
+}
+
+.link:hover{
+  background-color: var(--gris-claro);
+}
+
+.especie{
+  color: var(--celeste);
+}
+
+.alive{
+  color: var(--verde);
+}
+
+.dead{
+  color: red;
+}
+
+.page{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  color: white;
+  background-color: var(--celeste);
+}
+
+.page p{
+  margin-right: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 1.3rem;
+}
+
+.page input{
+  margin: 5px 10px;
+}
+
+.page button{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+  border-radius: 10px;
+  font-size: 1rem;
+}
+
+.page button:hover{
+  background-color: var(--celeste);
+  border-color: var(--verde);
+  color: white;
+  cursor: pointer;
+}

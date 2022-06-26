@@ -1,0 +1,50 @@
+:root {
+    --bgd-img: url(https://image.winudf.com/v2/image1/Y29tLndhbGxwYXBlcnM0a2hkX3JpY2tfbW9ydHlfd2FsbHBhcGVyc19zY3JlZW5fOF8xNTg4MDkzOTg4XzA2Mw/screen-8.jpg?fakeurl=1&type=.jpg);
+    --celeste: #2276B2;
+    --azul: rgba(26, 33, 46, 0.8);
+    --verde: #31BA29;
+    --gris-claro: #828D8E;
+    --gris-oscuro: #78705B;
+}
+
+.p-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 84.3vh;
+  background-image: var(--bgd-img);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.p-card{
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  border: 3px solid var(--celeste);
+  border-radius: 15px;
+  background-color: var(--azul);
+}
+
+.p-card img {
+  width: 270px;
+  border: 2px solid var(--celeste);
+  border-radius: 150px;
+}
+
+.p-info{
+  margin: 15px 0;
+  color: white;
+}
+
+.p-info p{
+  margin: 5px;
+}
+
+.p-nombre{
+  font-size: 2.5rem;
+  text-align: center;
+
+}
